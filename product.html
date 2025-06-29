@@ -1,15 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Product Info</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Bin Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            border-left: 5px solid #00b894;
+            padding-left: 10px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #666;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
 </head>
+
 <body>
-  <h2>Introducing Our Product</h2>
-  <p>Today, we present our smart voice assistant: "HomeMate".</p>
-  <p>HomeMate helps you control lights, temperature, and music with just your voice.</p>
-  <p>It is small, stylish, and easy to use. We believe HomeMate will become part of your family.</p>
-  <a href="index.html">← Back to Home</a>
+    <div class="container">
+        <!-- 外观板块 -->
+        <div class="section" id="appearance">
+            <h2>Appearance</h2>
+            <h3>Size & Weight</h3>
+            <ul>
+                <li><strong>Open Size</strong>: 50cm (height) 35cm (width) Suitable for kitchen and living room</li>
+                <li><strong>Closed Size</strong>: 30cm (height)  35cm Space-saving when not in use</li>
+                <li><strong>Weight</strong>: 3.2kg Easy to move and clean</li>
+            </ul>
+            <img src="2.png" alt="Open and Closed Size"> <!-- 替换为实际图片路径 -->
+
+            <h3>Colors</h3>
+            <ul>
+                <li><strong>Matte Black</strong>: Elegant and modern, fits well in any home decor; Easy to match with different styles of furniture</li>
+                <li><strong>Ocean Blue</strong>: Refreshing and calming, adds a touch of nature; Perfect for coastal or nature-themed interiors</li>
+                <li><strong>Forest Green</strong>: Earthy and natural, brings a sense of tranquility; Ideal for eco-friendly and green living spaces</li>
+                <li>Also available in Deep black, Light green, Dark blue</li>
+            </ul>
+            <img src="3.png" alt="Colors"> <!-- 替换为实际图片路径 -->
+        </div>
+
+        <!-- 功能板块 -->
+        <div class="section" id="function">
+            <h2>Function</h2>
+            <ul>
+                <li><strong>Auto-Sensing Lid</strong>: Open in 0.3s via motion detection, convenient for hands-free operation, suitable for busy households and public places</li>
+                <li><strong>UV Sterilization</strong>: 99.9% Bacteria Elimination, keeps the trash bin hygienic and odor-free, reduces the risk of bacterial spread</li>
+                <li><strong>Waste Compression</strong>: Reduce volume by 60% (AI-powered), saves space and reduces the frequency of trash disposal, environmentally friendly and cost-effective</li>
+                <li><strong>Solar Charging</strong>: 8h Sunlight = 30 Days Usage, eco-friendly and sustainable power source, reduces electricity consumption and carbon footprint</li>
+            </ul>
+           
+        </div>
+
+        <!-- 品质板块 -->
+        <div class="section" id="quality">
+            <h2>Quality</h2>
+            <h3>Material</h3>
+            <ul>
+                <li><strong>Trash can shell</strong>: Stainless steel & High-strength plastic, durable and easy to clean</li>
+                <li><strong>Internal mechanism</strong>: Motor Sensor Low noise</li>
+            </ul>
+            
+
+            <h3>Internal Structure </h3>
+            <ul>
+                <li>Made of Aluminum Alloy + Silicone Seals</li>
+                <li>Durable and long-lasting</li>
+                <li>Ensures quiet and smooth operation</li>
+                <li>100,000+ Open/Close Cycles</li>
+            </ul>
+            <img src="1.png" alt="Internal Structure"> 
+        </div>
+
+        <!-- 价格板块 -->
+        <div class="section" id="price">
+            <h2>Price</h2>
+            <p>Only 299 RMB</p>
+            <p>Three-year warranty, lifetime service</p>
+            <img src="4.png" alt="Price"> <!-- 替换为实际图片路径 -->
+        </div>
+    </div>
 </body>
+
 </html>
